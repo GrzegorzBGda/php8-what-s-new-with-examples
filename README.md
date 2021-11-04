@@ -2,16 +2,19 @@
 
 Showing what's new in PHP 8 with examples and tests.
 I believe that reading about the changes is not enough, so grab this Docker and give all changes a try.
+Read the docs Luke!
 
 ## How does it work?
-Every new change has its own separate test. Read the test, modify them and have fun!
+Every new change has its own separate test. Read the tests, modify them and have fun!
 
 ## Official documentation
 https://www.php.net/releases/8.0/en.php
 
 ## What's new in Php 8
-1. Named arguments
-2. Union types
+1. Named arguments: https://www.php.net/releases/8.0/en.php#named-arguments
+2. Attributes: https://www.php.net/releases/8.0/en.php#attributes
+2. Constructor property promotion: Constructor property promotion: https://www.php.net/releases/8.0/en.php#attributes
+3. Union types: https://www.php.net/releases/8.0/en.php#attributes
 
 ## Starting app
 docker-compose up -d
