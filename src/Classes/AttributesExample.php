@@ -4,7 +4,8 @@ namespace Example\Classes;
 
 #[Attr('foo')]
 /**
- * attribute above informs that class below will have foo field
+ * Instead of PHPDoc annotations, you can now use structured metadata with PHP's native syntax.
+ * attribute above informs that class below will have foo field.
  */
 class AttributesExample
 {

@@ -7,6 +7,9 @@ namespace Example\Classes;
 class NamedArgumentsExample
 {
     /**
+     * Specify only required parameters, skipping optional ones.
+     * Arguments are order-independent and self-documented.
+     *
      * @param float $side
      * @param float $height
      * @param string|null $unit

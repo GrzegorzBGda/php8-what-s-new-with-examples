@@ -4,11 +4,11 @@ namespace Example\Classes;
 
 
 use Exception;
-use JetBrains\PhpStorm\Pure;
 
 class MatchExample
 {
     /**
+     * PHP 7.4
      * @param int $number
      * @return string
      * @throws Exception
@@ -33,6 +33,8 @@ class MatchExample
     }
 
     /**
+     * Match is an expression, meaning its result can be stored in a variable or returned.
+     *
      * @param int $number
      * @return string
      * @throws Exception
