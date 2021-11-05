@@ -9,7 +9,9 @@ Every new change has its own separate test. Read the tests, modify them and have
 
 ## Documentation
 1. 8.0 https://www.php.net/releases/8.0/en.php
-2. 8.1 https://wiki.php.net/todo/php81
+2. 8.1 
+   - https://wiki.php.net/todo/php81
+   - https://kinsta.com/blog/php-8-1
 
 ## What's new in Php 8
 1. Named arguments: https://www.php.net/releases/8.0/en.php#named-arguments
