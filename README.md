@@ -7,14 +7,17 @@ Read the docs Luke!
 ## How does it work?
 Every new change has its own separate test. Read the tests, modify them and have fun!
 
-## Official documentation
-https://www.php.net/releases/8.0/en.php
+## Documentation
+1. 8.0 https://www.php.net/releases/8.0/en.php
+2. 8.1 https://wiki.php.net/todo/php81
 
 ## What's new in Php 8
 1. Named arguments: https://www.php.net/releases/8.0/en.php#named-arguments
 2. Attributes: https://www.php.net/releases/8.0/en.php#attributes
 2. Constructor property promotion: Constructor property promotion: https://www.php.net/releases/8.0/en.php#attributes
 3. Union types: https://www.php.net/releases/8.0/en.php#attributes
+4. Match expression: https://www.php.net/releases/8.0/en.php#match-expression
+
 
 ## Starting app
 docker-compose up -d
