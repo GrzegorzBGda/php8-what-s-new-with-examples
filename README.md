@@ -16,10 +16,10 @@ Every new change has its own separate test. Read the tests, modify them and have
 ## What's new in Php 8
 1. Named arguments: https://www.php.net/releases/8.0/en.php#named-arguments
 2. Attributes: https://www.php.net/releases/8.0/en.php#attributes
-2. Constructor property promotion: Constructor property promotion: https://www.php.net/releases/8.0/en.php#attributes
-3. Union types: https://www.php.net/releases/8.0/en.php#attributes
-4. Match expression: https://www.php.net/releases/8.0/en.php#match-expression
-
+3. Constructor property promotion: Constructor property promotion: https://www.php.net/releases/8.0/en.php#attributes
+4. Union types: https://www.php.net/releases/8.0/en.php#attributes
+5. Match expression: https://www.php.net/releases/8.0/en.php#match-expression
+6. Nullsafe operator: https://www.php.net/releases/8.0/en.php#nullsafe-operator
 
 ## Starting app
 docker-compose up -d
