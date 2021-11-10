@@ -20,6 +20,13 @@ Every new change has its own separate test. Read the tests, modify them and have
 4. Union types: https://www.php.net/releases/8.0/en.php#attributes
 5. Match expression: https://www.php.net/releases/8.0/en.php#match-expression
 6. Nullsafe operator: https://www.php.net/releases/8.0/en.php#nullsafe-operator
+7. Saner string to number comparisons: https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons
+
+
+
+## First use
+docker-compose up -d --build
+
 
 ## Starting app
 docker-compose up -d
