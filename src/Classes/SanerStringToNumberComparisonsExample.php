@@ -19,6 +19,6 @@ class SanerStringToNumberComparisonsExample
      */
     public function isOneANumber(): bool
     {
-        return 1 == 'one';
+        return 1 == "1";
     }
 }

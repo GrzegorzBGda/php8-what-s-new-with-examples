@@ -8,6 +8,8 @@ use PHPUnit\Framework\TestCase;
 class SanerStringToNumberComparisonsTest extends TestCase
 {
     /**
+     * When comparing to a numeric string, PHP 8 uses a number comparison.
+     * Otherwise, it converts the number to a string and uses a string comparison.
      * @covers Example\Classes\SanerStringToNumberComparisonsExample::isFoobarANumber()
      * @covers Example\Classes\SanerStringToNumberComparisonsExample::isOneANumber()
      */
@@ -16,9 +18,9 @@ class SanerStringToNumberComparisonsTest extends TestCase
         $sanerStringToNumberComparisonsExample = new SanerStringToNumberComparisonsExample();
 
         //Foobar is a string not a number
-        self::assertEquals(false, $sanerStringToNumberComparisonsExample->isFoobarANumber(), "Foobar is a stringr");
+        self::assertEquals(false, $sanerStringToNumberComparisonsExample->isFoobarANumber());
 
-        //One is a string but php8 will no longer convert it to a number in a fly
-        self::assertEquals(false, $sanerStringToNumberComparisonsExample->isOneANumber(), "One is a string");
+        //'1' is a string but can be converted ina fly into integer
+        self::assertEquals(true, $sanerStringToNumberComparisonsExample->isOneANumber());
     }
 }
