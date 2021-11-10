@@ -21,7 +21,7 @@ Every new change has its own separate test. Read the tests, modify them and have
 5. Match expression: https://www.php.net/releases/8.0/en.php#match-expression
 6. Nullsafe operator: https://www.php.net/releases/8.0/en.php#nullsafe-operator
 7. Saner string to number comparisons: https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons
-
+8. Consistent type errors for internal functions: https://www.php.net/releases/8.0/en.php#consistent-type-errors-for-internal-functions
 
 
 ## First use
