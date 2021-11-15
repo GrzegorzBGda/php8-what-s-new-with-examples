@@ -5,7 +5,7 @@ namespace Example\Classes;
 use Traversable;
 use Countable;
 
-class PureIntersectionTypes
+class PureIntersectionTypesExample
 {
     private Traversable&Countable $countableIterator;
 

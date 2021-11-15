@@ -26,6 +26,7 @@ Every new change has its own separate test. Read the tests, modify them and have
 
 ### PHP 8.1
 9. Pure Intersection Types: https://kinsta.com/blog/php-8-1/#pure-intersection-types
+10. Enums: https://kinsta.com/blog/php-8-1/#enums
 
 ## First use
 docker-compose up -d --build
