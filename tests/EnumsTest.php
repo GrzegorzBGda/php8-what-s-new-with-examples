@@ -8,7 +8,10 @@ use PHPUnit\Framework\TestCase;
 
 class EnumsTest extends TestCase
 {
-
+    /**
+     * @covers \Example\Classes\EnumsExampleBacked::sum()
+     * @covers \Example\Classes\EnumsExampleBacked::staticSum()
+     */
     public function testShouldCheckEnums(): void
     {
 
