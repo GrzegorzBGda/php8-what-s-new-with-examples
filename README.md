@@ -14,15 +14,18 @@ Every new change has its own separate test. Read the tests, modify them and have
    - https://kinsta.com/blog/php-8-1
 
 ## What's new in Php 8
+### PHP 8.0
 1. Named arguments: https://www.php.net/releases/8.0/en.php#named-arguments
 2. Attributes: https://www.php.net/releases/8.0/en.php#attributes
-3. Constructor property promotion: Constructor property promotion: https://www.php.net/releases/8.0/en.php#attributes
-4. Union types: https://www.php.net/releases/8.0/en.php#attributes
+3. Constructor property promotion: https://www.php.net/releases/8.0/en.php#constructor-property-promotion
+4. Union types: https://www.php.net/releases/8.0/en.php#union-types
 5. Match expression: https://www.php.net/releases/8.0/en.php#match-expression
 6. Nullsafe operator: https://www.php.net/releases/8.0/en.php#nullsafe-operator
 7. Saner string to number comparisons: https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons
 8. Consistent type errors for internal functions: https://www.php.net/releases/8.0/en.php#consistent-type-errors-for-internal-functions
 
+### PHP 8.1
+9. Pure Intersection Types: https://kinsta.com/blog/php-8-1/#pure-intersection-types
 
 ## First use
 docker-compose up -d --build
