@@ -25,13 +25,14 @@ Every new change has its own separate test. Read the tests, modify them and have
 8. Consistent type errors for internal functions: https://www.php.net/releases/8.0/en.php#consistent-type-errors-for-internal-functions
 
 ### PHP 8.1
-9. Pure Intersection Types: https://www.php.net/releases/8.1/en.php#readonly_properties
-10. Enums: https://www.php.net/releases/8.1/en.php#enumerations
-11. Never: https://www.php.net/releases/8.1/en.php#never_return_type
-12. Fibers: https://www.php.net/releases/8.1/en.php#fibers
+1. Pure Intersection Types: https://www.php.net/releases/8.1/en.php#readonly_properties
+2. Enums: https://www.php.net/releases/8.1/en.php#enumerations
+3. Never: https://www.php.net/releases/8.1/en.php#never_return_type
+4. Fibers: https://www.php.net/releases/8.1/en.php#fibers
+5. Readonly properties: https://www.php.net/releases/8.1/en.php#readonly_properties
 
 ### PHP 8.2
-13. Readonly classes https://www.php.net/releases/8.2/#readonly_classes
+1. Readonly classes https://www.php.net/releases/8.2/#readonly_classes
 
 ## First use
 docker-compose up -d --build
