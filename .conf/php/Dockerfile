@@ -1,4 +1,4 @@
-FROM devilbox/php-fpm-8.1:latest
+FROM devilbox/php-fpm-8.2:latest
 
 RUN apt-get install autoconf
 RUN pecl install xdebug \
