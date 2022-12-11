@@ -30,9 +30,11 @@ Every new change has its own separate test. Read the tests, modify them and have
 11. Never: https://kinsta.com/blog/php-8-1/#the-never-return-type
 12. Fibers: https://kinsta.com/blog/php-8-1/#fibers
 
+### PHP 8.2
+13. Readonly classes https://www.php.net/releases/8.2/#readonly_classes
+
 ## First use
 docker-compose up -d --build
-
 
 ## Starting app
 docker-compose up -d
