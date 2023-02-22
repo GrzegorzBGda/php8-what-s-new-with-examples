@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 class ReadonlyPropertiesTest extends TestCase
 {
     /**
-     * @covers Example\Classes\ReadonlyPropertiesExample::__construct()
+     * @covers \Example\Classes\EightOne\ReadonlyPropertiesExample::__construct()
      */
     public function testShouldCheckThatAttributesAreReadonly(): void
     {
