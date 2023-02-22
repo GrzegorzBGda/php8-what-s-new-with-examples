@@ -9,9 +9,8 @@ Every new change has its own separate test. Read the tests, modify them and have
 
 ## Documentation
 1. 8.0 https://www.php.net/releases/8.0/en.php
-2. 8.1 
-   - https://wiki.php.net/todo/php81
-   - https://kinsta.com/blog/php-8-1
+2. 8.1 https://www.php.net/releases/8.1/en.php
+3. 8.2 https://www.php.net/releases/8.2/en.php
 
 ## What's new in Php 8
 ### PHP 8.0
@@ -23,14 +22,13 @@ Every new change has its own separate test. Read the tests, modify them and have
 6. Nullsafe operator: https://www.php.net/releases/8.0/en.php#nullsafe-operator
 7. Saner string to number comparisons: https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons
 8. Consistent type errors for internal functions: https://www.php.net/releases/8.0/en.php#consistent-type-errors-for-internal-functions
-
 ### PHP 8.1
 1. Pure Intersection Types: https://www.php.net/releases/8.1/en.php#readonly_properties
 2. Enums: https://www.php.net/releases/8.1/en.php#enumerations
 3. Never: https://www.php.net/releases/8.1/en.php#never_return_type
 4. Fibers: https://www.php.net/releases/8.1/en.php#fibers
 5. Readonly properties: https://www.php.net/releases/8.1/en.php#readonly_properties
-
+6. First-class callable syntax: https://www.php.net/releases/8.1/en.php#first_class_callable_syntax
 
 ### PHP 8.2
 1. Readonly classes https://www.php.net/releases/8.2/#readonly_classes
