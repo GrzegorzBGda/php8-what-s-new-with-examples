@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-use Example\Classes\NamedArgumentsExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\NamedArgumentsExample;
 use PHPUnit\Framework\TestCase;
 
 class NamedArgumentsTest extends TestCase
 {
     /**
-     * @covers Example\Classes\NamedArgumentsExample::calculateTriangleArea()
+     * @covers \Example\Classes\EightZero\NamedArgumentsExample::calculateTriangleArea()
      */
     public function testShouldCheckNamedArguments(): void
     {

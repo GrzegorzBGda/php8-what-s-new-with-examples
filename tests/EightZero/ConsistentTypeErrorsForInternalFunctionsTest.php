@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-use Example\Classes\ConsistentTypeErrorsForInternalFunctionsExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\ConsistentTypeErrorsForInternalFunctionsExample;
 use PHPUnit\Framework\TestCase;
 
 class ConsistentTypeErrorsForInternalFunctionsTest extends TestCase
 {
     /**
-     * @covers Example\Classes\ConsistentTypeErrorsForInternalFunctionsExample::strlenExample()
+     * @covers \Example\Classes\EightZero\ConsistentTypeErrorsForInternalFunctionsExample::strlenExample()
      */
     public function testShouldCheckStrlenExample(): void
     {
@@ -20,7 +22,7 @@ class ConsistentTypeErrorsForInternalFunctionsTest extends TestCase
     }
 
     /**
-     * @covers Example\Classes\ConsistentTypeErrorsForInternalFunctionsExample::arrayChunkExample()
+     * @covers \Example\Classes\EightZero\ConsistentTypeErrorsForInternalFunctionsExample::arrayChunkExample()
      */
     public function testShouldCheckArrayChunkExample(): void
     {

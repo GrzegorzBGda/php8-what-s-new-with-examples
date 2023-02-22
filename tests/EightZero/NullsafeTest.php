@@ -3,14 +3,16 @@
 declare(strict_types=1);
 
 
-use Example\Classes\NullsafeExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\NullsafeExample;
 use PHPUnit\Framework\TestCase;
 
 class NullsafeTest extends TestCase
 {
     /**
-     * @covers Example\Classes\NullsafeExample::getCountryPhp7()
-     * @covers Example\Classes\NullsafeExample::getCountryPhp8()
+     * @covers \Example\Classes\EightZero\NullsafeExample::getCountryPhp7()
+     * @covers \Example\Classes\EightZero\NullsafeExample::getCountryPhp8()
      */
     public function testShouldCheckNullsafe(): void
     {

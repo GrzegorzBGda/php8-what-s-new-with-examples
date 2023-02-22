@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Example\Classes;
+namespace Example\Classes\EightZero;
 
 /**
  * Instead of PHPDoc annotations for a combination of types, you can use native union type declarations that are validated at runtime.

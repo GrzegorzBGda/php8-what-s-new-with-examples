@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-use Example\Classes\AttributesExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\AttributesExample;
 use PHPUnit\Framework\TestCase;
 
 class AttributesTest extends TestCase
 {
     /**
-     * @covers Example\Classes\AttributesExample::__toString()
+     * @covers \Example\Classes\EightZero\AttributesExample::__toString()
      */
     public function testShouldCheckAttributes(): void
     {

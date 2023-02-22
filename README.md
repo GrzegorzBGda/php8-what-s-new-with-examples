@@ -30,6 +30,7 @@ Every new change has its own separate test. Read the tests, modify them and have
 3. Never: https://www.php.net/releases/8.1/en.php#never_return_type
 4. Fibers: https://www.php.net/releases/8.1/en.php#fibers
 5. Readonly properties: https://www.php.net/releases/8.1/en.php#readonly_properties
+6. 
 
 ### PHP 8.2
 1. Readonly classes https://www.php.net/releases/8.2/#readonly_classes

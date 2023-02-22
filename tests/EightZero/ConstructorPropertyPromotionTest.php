@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-use Example\Classes\ConstructorPropertyPromotionExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\ConstructorPropertyPromotionExample;
 use PHPUnit\Framework\TestCase;
 
 class ConstructorPropertyPromotionTest extends TestCase
 {
     /**
-     * @covers Example\Classes\ConstructorPropertyPromotionExample::__toString()
+     * @covers \Example\Classes\EightZero\ConstructorPropertyPromotionExample::__toString()
      */
     public function testShouldCheckConstructorPropertyPromotion(): void
     {

@@ -2,14 +2,16 @@
 
 declare(strict_types=1);
 
-use Example\Classes\UnionTypesExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\UnionTypesExample;
 use PHPUnit\Framework\TestCase;
 
 class UnionTypesTest extends TestCase
 {
     /**
-     * @covers Example\Classes\UnionTypesExample::getClassField()
-     * @covers Example\Classes\UnionTypesExample::setClassField()
+     * @covers \Example\Classes\EightZero\UnionTypesExample::getClassField()
+     * @covers \Example\Classes\EightZero\UnionTypesExample::setClassField()
      */
     public function testShouldCheckUnionTypes(): void
     {

@@ -2,14 +2,16 @@
 
 declare(strict_types=1);
 
-use Example\Classes\MatchExample;
+namespace EightZero;
+
+use Example\Classes\EightZero\MatchExample;
 use PHPUnit\Framework\TestCase;
 
 class MatchTest extends TestCase
 {
     /**
-     * @covers Example\Classes\AttributesExample::switchExample()
-     * @covers Example\Classes\AttributesExample::matchExample()
+     * @covers \Example\Classes\EightZero\AttributesExample::switchExample()
+     * @covers \Example\Classes\EightZero\AttributesExample::matchExample()
      */
     public function testShouldCheckMatch(): void
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Example\Classes;
+namespace Example\Classes\EightZero;
 
 class NullsafeExample
 {
