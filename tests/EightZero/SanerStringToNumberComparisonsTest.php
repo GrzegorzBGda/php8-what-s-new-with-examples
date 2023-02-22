@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace EightZero;
 
-use Example\Classes\SanerStringToNumberComparisonsExample;
+use Example\Classes\EightOne\SanerStringToNumberComparisonsExample;
 use PHPUnit\Framework\TestCase;
 
 class SanerStringToNumberComparisonsTest extends TestCase

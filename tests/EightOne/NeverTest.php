@@ -3,15 +3,16 @@
 declare(strict_types=1);
 
 
-use Example\Classes\NeverExample;
+namespace EightOne;
+
 use PHPUnit\Framework\TestCase;
 
 class NeverTest extends TestCase
 {
 
     /**
-     * @covers Example\Classes\NeverExample::setUri()
-     * @covers Example\Classes\NeverExample::setUriRegister()
+     * @covers \Example\Classes\EightOne\NeverExample::setUri()
+     * @covers \Example\Classes\EightOne\NeverExample::setUriRegister()
      */
     public function testShouldCheckNeverExample(): void
     {

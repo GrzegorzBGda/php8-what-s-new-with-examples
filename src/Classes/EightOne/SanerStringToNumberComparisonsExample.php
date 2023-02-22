@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Example\Classes;
+namespace Example\Classes\EightOne;
 
 
 class SanerStringToNumberComparisonsExample

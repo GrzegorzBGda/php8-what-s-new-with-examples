@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-use Example\Classes\ReadonlyPropertiesExample;
+namespace EightOne;
+
+use Example\Classes\EightOne\ReadonlyPropertiesExample;
 use PHPUnit\Framework\TestCase;
 
 class ReadonlyPropertiesTest extends TestCase
@@ -14,7 +16,7 @@ class ReadonlyPropertiesTest extends TestCase
     {
         $readonlyProperties = new ReadonlyPropertiesExample('active');
 
-        self::expectExceptionMessage('Cannot modify readonly property Example\Classes\ReadonlyPropertiesExample::$status');
+        self::expectExceptionMessage('Cannot modify readonly property Example\Classes\EightOne\ReadonlyPropertiesExample::$status');
         $readonlyProperties->status = 'inactive';
     }
 }

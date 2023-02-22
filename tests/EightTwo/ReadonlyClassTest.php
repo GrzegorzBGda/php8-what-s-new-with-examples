@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-use Example\Classes\ReadonlyClassExample;
+namespace EightTwo;
+
+use Example\Classes\EightTwo\ReadonlyClassExample;
 use PHPUnit\Framework\TestCase;
 
 class ReadonlyClassTest extends TestCase
@@ -14,7 +16,7 @@ class ReadonlyClassTest extends TestCase
     {
         $readonlyClass = new ReadonlyClassExample(1, 'John');
 
-        self::expectExceptionMessage('Cannot modify readonly property Example\Classes\ReadonlyClassExample::$id');
+        self::expectExceptionMessage('Cannot modify readonly property Example\Classes\EightTwo\ReadonlyClassExample::$id');
         $readonlyClass->id = 2;
     }
 }

@@ -1,17 +1,19 @@
 <?php
 declare(strict_types=1);
 
-use Example\Classes\Helpers\CountableExample;
-use Example\Classes\PureIntersectionTypesExample;
+namespace EightOne;
+
+use Example\Classes\EightOne\PureIntersectionTypesExample;
 use Example\Classes\Helpers\CountableAndIteratorExample;
+use Example\Classes\Helpers\CountableExample;
 use PHPUnit\Framework\TestCase;
 
 class PureIntersectionTypesTest extends TestCase
 {
 
     /**
-     * @covers Example\Classes\PureIntersectionTypesExample::setIterator()
-     * @covers Example\Classes\PureIntersectionTypesExample::getIterator()
+     * @covers \Example\Classes\EightOne\PureIntersectionTypesExample::setIterator()
+     * @covers \Example\Classes\EightOne\PureIntersectionTypesExample::getIterator()
      */
     public function testShouldCheckPureIntersectionTypes(): void
     {
@@ -22,7 +24,7 @@ class PureIntersectionTypesTest extends TestCase
         self::assertEquals($iterator, $pureIntersectionTypes->getIterator());
 
         $countable = new CountableExample();
-        self::expectErrorMessage('Example\Classes\PureIntersectionTypesExample::setIterator(): Argument #1 ($countableIterator) must be of type Traversable&Countable');
+        self::expectErrorMessage('Example\Classes\EightOne\PureIntersectionTypesExample::setIterator(): Argument #1 ($countableIterator) must be of type Traversable&Countable');
         $pureIntersectionTypes->setIterator($countable); // will call an error, that object must be of type Traversable&Countable
     }
 }

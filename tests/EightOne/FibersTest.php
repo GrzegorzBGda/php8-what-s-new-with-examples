@@ -2,15 +2,14 @@
 
 declare(strict_types=1);
 
+namespace EightOne;
+
 use PHPUnit\Framework\TestCase;
+use Fiber;
 
 class FibersTest extends TestCase
 {
-    /**
-     * @covers Example\Classes\FibersExample::start
-     * @covers Example\Classes\FibersExample::suspend
-     * @covers Example\Classes\FibersExample::resume
-     */
+
     public function testShouldCheckFibers(): void
     {
         $fiber = new Fiber(function (): void {

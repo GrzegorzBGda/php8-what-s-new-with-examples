@@ -2,15 +2,17 @@
 
 declare(strict_types=1);
 
-use Example\Classes\EnumsExample;
-use Example\Classes\EnumsExampleBacked;
+namespace EightOne;
+
+use Example\Classes\EightOne\EnumsExample;
+use Example\Classes\EightOne\EnumsExampleBacked;
 use PHPUnit\Framework\TestCase;
 
 class EnumsTest extends TestCase
 {
     /**
-     * @covers \Example\Classes\EnumsExampleBacked::sum()
-     * @covers \Example\Classes\EnumsExampleBacked::staticSum()
+     * @covers \Example\Classes\EightOne\EnumsExampleBacked::sum()
+     * @covers \Example\Classes\EightOne\EnumsExampleBacked::staticSum()
      */
     public function testShouldCheckEnums(): void
     {
@@ -23,7 +25,6 @@ class EnumsTest extends TestCase
 
         // enum's name value is case name
         self::assertEquals('Diamonds', EnumsExample::Diamonds->name);
-
 
 
         // returning type is enum class itself
@@ -41,9 +42,6 @@ class EnumsTest extends TestCase
         self::assertEquals(6, EnumsExampleBacked::staticSum());
         self::assertEquals(6, EnumsExampleBacked::one->sum());
     }
-
-
-
 
 
 }

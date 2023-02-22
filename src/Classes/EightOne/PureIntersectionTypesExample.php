@@ -1,9 +1,9 @@
 <?php
 
-namespace Example\Classes;
+namespace Example\Classes\EightOne;
 
-use Traversable;
 use Countable;
+use Traversable;
 
 class PureIntersectionTypesExample
 {

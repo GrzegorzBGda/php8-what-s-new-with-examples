@@ -1,6 +1,6 @@
 <?php
 
-namespace Example\Classes;
+namespace Example\Classes\EightOne;
 
 /**
  * OMG Enum works like a Class
