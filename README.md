@@ -22,13 +22,18 @@ Every new change has its own separate test. Read the tests, modify them and have
 6. Nullsafe operator: https://www.php.net/releases/8.0/en.php#nullsafe-operator
 7. Saner string to number comparisons: https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons
 8. Consistent type errors for internal functions: https://www.php.net/releases/8.0/en.php#consistent-type-errors-for-internal-functions
+
 ### PHP 8.1
-1. Pure Intersection Types: https://www.php.net/releases/8.1/en.php#readonly_properties
-2. Enums: https://www.php.net/releases/8.1/en.php#enumerations
-3. Never: https://www.php.net/releases/8.1/en.php#never_return_type
-4. Fibers: https://www.php.net/releases/8.1/en.php#fibers
-5. Readonly properties: https://www.php.net/releases/8.1/en.php#readonly_properties
-6. First-class callable syntax: https://www.php.net/releases/8.1/en.php#first_class_callable_syntax
+1. Enums: https://www.php.net/releases/8.1/en.php#enumerations
+2. Readonly properties: https://www.php.net/releases/8.1/en.php#readonly_properties
+3. First-class callable syntax: https://www.php.net/releases/8.1/en.php#first_class_callable_syntax
+4. New in initializers: https://www.php.net/releases/8.1/en.php#new_in_initializers
+5. Pure Intersection Types: https://www.php.net/releases/8.1/en.php#pure_intersection_types
+6. Never: https://www.php.net/releases/8.1/en.php#never_return_type
+7. Final class constants: https://www.php.net/releases/8.1/en.php#final_class_constants
+8. Explicit Octal numeral notation: https://www.php.net/releases/8.1/en.php#explicit_octal_notation
+9. Fibers: https://www.php.net/releases/8.1/en.php#fibers
+10. Array unpacking support for string-keyed arrays: https://www.php.net/releases/8.1/en.php#array_unpacking_support_for_string_keyed_arrays
 
 ### PHP 8.2
 1. Readonly classes https://www.php.net/releases/8.2/#readonly_classes
